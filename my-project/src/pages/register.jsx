@@ -33,7 +33,7 @@ const Register = ()=>{
             <div className='card p-4 shadow-lg' style={{width:'350px'}}>
                 <h2 className='text-center mb-4'>Register</h2>
                 
-                {error && <div className='alert alert-danger alert-dismissible  show'>{error}
+                {error && <div className='alert alert-danger alert-dismissible fade show'>{error}
                     <button className='btn-close' data-bs-dismiss="alert" onClick={remove}></button>    
                 </div>}
 
